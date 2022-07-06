@@ -1,10 +1,51 @@
-$color1 : blue; 
+// Break Point
+$tablet: 768px;
+$laptop: 1020px;
+$desktop: 1400px;
+ 
+// Mixins
+@mixin tablet {
+  @media (min-width: #{$tablet}) {
+    @content;
+  }
+}
+ 
+@mixin laptop {
+  @media (min-width: #{$laptop}) {
+    @content;
+  }
+}
+ 
+ 
+@mixin desktop {
+  @media (min-width: #{$desktop}) {
+    @content;
+  }
+}
 
-html, body{
+html{ font-size : 62.5% }
+// 12rem : 120px; 
+// 1.6rem : 16px;
+
+body{
     margin : 0; 
-    padding : 0;    
+    padding : 0; 
+}
+
+button{
+    width : 20px; 
+    @include laptop {
+        width : 30px;
+    }
+    @include desktop() {
+        width : 50px;
+    }
 }
 
 div{
-    color : $color1;
+    width : 50vmin;
+    height: 50vmin;
+    background-color : black;
+    color : white;
+    font-size: 5em;
 }
