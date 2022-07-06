@@ -1,0 +1,10 @@
+$color1 : blue; 
+
+html, body{
+    margin : 0; 
+    padding : 0;    
+}
+
+div{
+    color : $color1;
+}
