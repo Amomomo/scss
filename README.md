@@ -16,3 +16,13 @@
 # automatic compile 
  sass --watch style.scss style.css
  
+#project
+ ? UI framework: None
+ ? Nuxt.js modules: (Press <space> to select, <a> to toggle all, <i> to invert selection)
+ ? Linting tools: (Press <space> to select, <a> to toggle all, <i> to invert selection)
+ ? Testing framework: None
+ ? Rendering mode: Universal (SSR / SSG)
+ ? Deployment target: Server (Node.js hosting)
+ ? Development tools: (Press <space> to select, <a> to toggle all, <i> to invert selection)
+ ? What is your GitHub username? sohee
+ ? Version control system: Git
