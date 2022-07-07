@@ -6,11 +6,13 @@
 
 # install 
  npm install sass -g
+ 
+# version check
  sass --version
  
- 컴파일
+# compile
  sass style.scss style.css
  
- 자동 컴파일
+# automatic compile 
  sass --watch style.scss style.css
  
